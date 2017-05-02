@@ -1,0 +1,401 @@
+html{
+
+}
+
+/*Headers*/
+
+h1,h2,h3,h4,h5,h6,
+.h1.h2.h3.h4.h5.h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 14px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+
+
+/* Body Copy*/
+
+}
+p, .p {
+  font-size: 14px;
+  line-height: 1.428;
+  margin-bottom: 10px;
+}
+
+body, .body {
+  font-size: 14px;
+  line-height: 1.428;
+}
+
+.lead {
+  font-size: 16px;
+}
+
+a {
+  color: rgb(21, 50, 74);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(249, 225, 9);
+  text-decoration: underline;
+}
+
+/* Addresses */
+
+address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.428;
+  margin-bottom: 20px;
+}
+
+
+/* Blockquotes */
+
+.blockquote {
+  border-left: 3px solid #7c7777;
+  font-size: 17.5px;
+  margin: 0 0 10px;
+  padding: 15px 25px;
+}
+
+blockquote footer {
+  color: rgb(98, 98, 98);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+blockquote footer::before {
+  content:
+}
+
+blockquote-reverse {
+  border-right: 3px solid #7c7777;
+  text-align: right;
+}
+
+/* Buttons */
+
+.btn {
+  border: 1px solid rgb(211, 213, 204);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn-default {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn:hover {
+  background-color: rgba(#d9d3d3, 0.86);
+}
+
+.btn-primary {
+  background-color: rgb(211, 213, 204);
+  border-color: rgb(41, 110, 168);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: rgb(34, 96, 148);
+  border-color: rgb(211, 213, 204);
+}
+
+.btn-success:active {
+  background-color:inherit;
+  border-color: inherit;
+}
+
+.btn-info {
+  background-color: inherit;
+  border-color: inherit;
+  color: inherit;
+}
+
+.btn-warning {
+  background-color: inherit;
+  border-color: inherit;
+  color: inherit;
+}
+
+.btn-warning:hover {
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-warning:acive {
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-danger {
+  background-color: inherit;
+  border-color: inherit;
+  color: inherit;
+}
+
+.btn-danger:hover {
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-danger:active {
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-link {
+  background-color: inherit;
+  border: none;
+  color: inherit;
+}
+
+.btn-link:hover {
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.btn-lg {
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 1.25;
+  padding: 12px 18px;
+}
+
+.btn-sm {
+  border-radius: 2px;
+  font-size: 15px;
+  line-height: 1.2;
+  padding: 3px 8px;
+}
+
+.btn-xs {
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 1px 5px;
+}
+
+:disabled {
+  cursor: not-allowed;
+  opacity: 0.9;
+}
+
+
+/* Breadcrumbs */
+
+.breadcrumb {
+  background-color: inherit;
+  border-radius: 4px;
+  list-style: none;
+  padding: 8px 15px;
+}
+
+.breadcrumb li {
+  display: inline;
+}
+
+.breadcrumb > li + li:before {
+  color: inherit;
+  content: ;
+  padding: 0 5px;
+}
+
+/* Pagination */
+
+.pagination li {
+  border-right: 0px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  float:left;
+}
+
+.pagination a {
+  color: inherit;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: #ccc;
+  color: inherit;
+}
+
+.pagination li:first-child {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.pagination li:last-child {
+  border-bottom-right-radius: 4px;
+  border-right: 1px solid #ccc;
+  border-top-right-radius: 4px;
+
+}
+
+.pagination::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+
+/* Labels */
+
+.label {
+  border-radius: .25em;
+  color: inherit;
+  display: inline;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  padding: .2em .6em .3em;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.label-default {
+  background-color: inherit;
+}
+
+.label-primary {
+  background-color: inherit;
+}
+
+.label-success {
+  background-color: inherit);
+}
+
+.label-info {
+  background-color: inherit;
+}
+
+.label-warning {
+  background-color: inherit;
+}
+
+.label-danger {
+  background-color: inherit;
+}
+
+/* Badges */
+
+.badge {
+  background-color: grey;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 3px;
+  padding: 4px 9px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
+.btn-primary .badge {
+  background-color: #fff;
+  color: violet;
+}
+
+.btn-success .badge {
+  background-color: #fff;
+  color: blue;
+}
+
+.btn-info .badge {
+  background-color: #fff;
+  color: yellow;
+}
+
+.btn-warning .badge {
+  background-color: #fff;
+  color: green;
+}
+
+.btn-danger .badge {
+  background-color: #fff;
+  color: red;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: rgb(240, 240, 240);
+  border-radius: 12px;
+  margin: 25px;
+  padding: 55px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 60px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-weight: 350;
+}
+
+/* Page Header */
+
+.page-header {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Thumbnails */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  border-radius: 5px;
+  border: 1px solid rgb(233, 233, 233);
+  float: left;
+  margin: 13px;
+  padding-bottom: 3px;
+  padding: 5px;
+}
