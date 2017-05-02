@@ -1,0 +1,98 @@
+html{
+
+}
+
+/*Headers*/
+
+h1,h2,h3,h4,h5,h6,
+.h1.h2.h3.h4.h5.h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 14px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+
+
+/* Body Copy*/
+
+}
+p, .p {
+  font-size: 14px;
+  line-height: 1.428;
+  margin-bottom: 10px;
+}
+
+body, .body {
+  font-size: 14px;
+  line-height: 1.428;
+}
+
+.lead {
+  font-size: 16px;
+}
+
+a {
+  color: rgb(21, 50, 74);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(249, 225, 9);
+  text-decoration: underline;
+}
+
+/* Addresses */
+
+address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.428;
+  margin-bottom: 20px;
+}
+
+
+/* Blockquotes */
+
+.blockquote {
+  border-left: 3px solid #7c7777;
+  font-size: 17.5px;
+  margin: 0 0 10px;
+  padding: 15px 25px;
+}
+
+blockquote footer {
+  color: rgb(98, 98, 98);
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+blockquote footer::before {
+  content:
+}
+
+blockquote-reverse {
+  border-right: 3px solid #7c7777;
+  text-align: right;
+}
