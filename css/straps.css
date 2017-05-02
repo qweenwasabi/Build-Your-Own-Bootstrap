@@ -308,21 +308,94 @@ blockquote-reverse {
   background-color: inherit;
 }
 
-/* Breadcrumb */
+/* Badges */
 
-.breadcrumb {
-  background-color: inherit;
-  border-radius: 6px;
-  list-style: none;
-  padding: 5px 10px;
+.badge {
+  background-color: grey;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 3px;
+  padding: 4px 9px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
 }
 
-.breadcrumb li {
-  display: inline;
+.btn .badge {
+  position: relative;
+  top: -1px;
 }
 
-.breadcrumb > li + li:before {
-  color: #ccc;
-  content: '/\00a0';
-  padding: 0 5px;
+.btn-primary .badge {
+  background-color: #fff;
+  color: violet;
+}
+
+.btn-success .badge {
+  background-color: #fff;
+  color: blue;
+}
+
+.btn-info .badge {
+  background-color: #fff;
+  color: yellow;
+}
+
+.btn-warning .badge {
+  background-color: #fff;
+  color: green;
+}
+
+.btn-danger .badge {
+  background-color: #fff;
+  color: red;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: rgb(240, 240, 240);
+  border-radius: 12px;
+  margin: 25px;
+  padding: 55px;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 60px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-weight: 350;
+}
+
+/* Page Header */
+
+.page-header {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+/* Thumbnails */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  border-radius: 5px;
+  border: 1px solid rgb(233, 233, 233);
+  float: left;
+  margin: 13px;
+  padding-bottom: 3px;
+  padding: 5px;
 }
