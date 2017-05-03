@@ -374,6 +374,13 @@ blockquote-reverse {
   font-weight: 350;
 }
 
+.page-header {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
 /* Page Header */
 
 .page-header {
