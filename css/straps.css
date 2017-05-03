@@ -285,27 +285,27 @@ blockquote-reverse {
 }
 
 .label-default {
-  background-color: inherit;
+  background-color: rgb(242, 124, 28);
 }
 
 .label-primary {
-  background-color: inherit;
+  background-color: rgb(185, 237, 11);
 }
 
 .label-success {
-  background-color: inherit);
+  background-color: rgb(5, 228, 208));
 }
 
 .label-info {
-  background-color: inherit;
+  background-color: rgb(25, 114, 221);
 }
 
 .label-warning {
-  background-color: inherit;
+  background-color: rgb(235, 11, 152);
 }
 
 .label-danger {
-  background-color: inherit;
+  background-color: rgb(244, 9, 23);
 }
 
 /* Badges */
