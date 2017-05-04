@@ -469,7 +469,7 @@ blockquote-reverse {
 }
 
 .alert-success .alert-link {
-  color: #3c763d;
+  color: #e5f2e5;
 }
 
 .alert-info .alert-link {
@@ -529,4 +529,12 @@ button.close {
   border-radius: 4px;
   border: 1px solid #e3e3e3;
   padding: 20px;
+}
+
+.code-viewer {
+  background-color: #dddddd;
+  border-radius: 2px;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  position: relative;
 }

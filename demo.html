@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/straps.css">
   </head>
   <body>
+<!-- Headers -->
   <h1>Headers</h1>
   <hr />
   <h1 class="h1">Header1</h1>
@@ -15,27 +16,28 @@
   <h5>Header5</h5>
   <h6>Header6</h6>
 
-
+<!-- Buttons -->
   <h1>Buttons</h1>
   <hr />
+    <!-- Basic button -->
     <p>Basic button</p>
     <button class="btn">Basic</button>
-
+    <!-- Default button -->
     <p>Default button</p>
     <button class="btn-default">Default</button>
-
+   <!-- Hover button-->
     <p>Hover button</p>
     <button class="btn-primary">Hover</button>
-
+   <!-- Primary button-->
     <p>Primary button</p>
     <button class="btn-primary">Primary</button>
-
+   <!-- Primary hover button-->
     <p>Primary hover button</p>
     <button class="btn-primary">Primary Hover</button>
-
+    <!-- Success button-->
     <p>Success button</p>
     <button class="btn-success">Sucess</button>
-
+    <!-- Info button-->
     <p>Info button</p>
     <button class="btn-info">Info</button>
 
@@ -68,11 +70,21 @@
     <button class="btn-sm">Small</button>
     <button class="btn-xs">Extra Small</button>
 
+    <!-- code used displayed on front-end -->
+      <div class="code-viewer">
+        <xmp>
+        <button class="btn-lg">Long</button>
+        <button class="btn-sm">Small</button>
+        <button class="btn-xs">Extra Small</button>
+      </xmp>
+      </div>
+
     <p>disabled</p>
     <button type="button" class="disabled"> disabled</button>
 
+<!-- Button Group -->
 
-    <h1>Breadcrumbs</h1>
+    <h1>Button Group</h1>
     <hr />
 
     <p>Button Group</p>
@@ -83,8 +95,24 @@
       <button class="btn-default">Right</button>
     </div>
 
+    <!-- code used displayed on front-end -->
+    <div class="code-viewer">
+      <xmp>
+        <div class="btn-group" role="group" aria-label="...">
+          <button class="btn-default">Left</button>
+          <button class="btn-default">Middle</button>
+          <button class="btn-default">Right</button>
+        </div>
+     </xmp>
+    </div>
 
-    <h2>Breadcrumbs</h2>
+
+
+<!-- Breadcrumbs -->
+
+    <h1>Breadcrumbs</h1>
+    <hr />
+
 
     <ol class="breadcrumb">
       <li>
@@ -103,6 +131,21 @@
         hello /
       </li>
     </ol>
+    <!-- code used displayed on front-end -->
+      <div class="code-viewer">
+        <xmp>
+          <ol class="breadcrumb">
+            <li>  howdy / </li>
+            <li>  hello / </li>
+          </ol>
+
+          <ol class="breadcrumb" "li + li">
+            <li> howdy / </li>
+            <li> hello /</li>
+          </ol>
+      </xmp>
+      </div>
+<!-- Pagination -->
 
     <h1>Pagination</h1>
     <hr />
@@ -114,6 +157,17 @@
         hello
       </li>
     </ol>
+    <!-- code used displayed on front-end -->
+      <div class="code-viewer">
+        <xmp>
+          <ol class="Pagination">
+            <li>  howdy </li>
+            <li> hello </li>
+          </ol>
+      </xmp>
+      </div>
+
+    <!-- Labels -->
 
     <h1>Labels</h1>
     <hr/>
@@ -122,13 +176,23 @@
     <h4>This is a Label on Drugs <span class="label-default">Label</span></h4>
     <h4>This is a Label in recover <span class="label-primary">Label</span></h4>
     <h4>This is a Label Sober <span class="label-success">Label</span></h4>
+  <!-- Badges -->
 
     <h1>Badges</h1>
     <button type="button" class="btn">Badges<span class="badge"> 1 </span></button>
         <button type="button" class="btn-success">Badges<span class="badge"> 2 </span></button>
             <button type="button" class="btn-warning">Badges<span class="badge"> 3 </span></button>
                 <button type="button" class="btn-danger">Badges<span class="badge"> 4 </span></button>
-
+                <!-- code used displayed on front-end -->
+                    <div class="code-viewer">
+                      <xmp>
+                        <button type="button" class="btn">Badges<span class="badge"> 1 </span></button>
+                        <button type="button" class="btn-success">Badges<span class="badge"> 2 </span></button>
+                        <button type="button" class="btn-warning">Badges<span class="badge"> 3 </span></button>
+                        <button type="button" class="btn-danger">Badges<span class="badge"> 4 </span></button>
+                    </xmp>
+                    </div>
+<!-- jumbotron -->
     <h1>jumbotron</h1>
     <hr/>
     <div class="jumbotron">
@@ -144,6 +208,8 @@
        with the Paragraph(p)
      </p>
     </div>
+
+    <!-- Page Header -->
 
     <h1>Page Header</h1>
     <hr />
@@ -161,17 +227,80 @@
       <div class=""><img src="saltybae.png" /></div>
 
       </div>
+<!-- alerts -->
 
-    </div>
 
     <h1>Alerts</h1>
     <hr />
+    <div class="alert">
+      <strong>Alert</strong> you may have to Run for your life
+    </div>
+    <div class="alert-success">
+      <strong>Success</strong> your legs work for running for your life
+    </div>
+    <div class="alert-info">
+      <strong>Info</strong> about Runing for your life
+    </div>
+    <div class="alert-warning">
+      <strong>Warning</strong> you should run for your life
+    </div>
+    <div class="alert-danger">
+      <strong>Danger</strong> Run for your life zombies!
+    </div>
+    <!-- alerts with link tag -->
 
+    <div class="alert">
+      <strong>Alert message with a </strong> <a href="#" class="alert-link">Link</a> to where to run
+    </div>
+    <div class="alert-success">
+      <strong>Alert success and </strong> <a href="#" class="alert-link"> Link</a> to where to run
+    </div>
+    <div class="alert-info">
+      <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a> to where to run
+    </div>
+    <div class="alert-warning">
+      <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a> to where to run
+    </div>
+    <div class="alert-danger ">
+      <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a> to where to run
+    </div>
+  <!-- List groups -->
+  <h1>List groups</h1>
+  <hr />
+  <ul>
+    <li class="list-group-item">Headers</li>
+    <li class="list-group-item">Buttons</li>
+    <li class="list-group-item">Labels</li>
+    <li class="list-group-item">Badges</li>
+  </ul>
 
+  <!-- code used displayed on front-end -->
+    <div class="code-viewer">
+      <xmp>
+        <ul>
+          <li class="list-group-item">Headers</li>
+          <li class="list-group-item">Buttons</li>
+          <li class="list-group-item">Labels</li>
+          <li class="list-group-item">Badges</li>
+        </ul>
+    </xmp>
+    </div>
 
+  <!-- panels -->
+  <h1>Panels</h1>
+  <hr />
+  <div class="panel">
+    <div> Basic panel </div>
 
+    </div>
 
-
+  </div>
+  <!-- well -->
+  <h1>Well</h1>
+  <hr />
+  <div class="well">
+    This is well
+  </div>
 
   </body>
 </html>
