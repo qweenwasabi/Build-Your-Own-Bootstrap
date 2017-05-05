@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/straps.css">
-  </head>
-  <body>
-<!-- Headers -->
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/straps.css">
+</head>
+
+<body>
+  <!-- Headers -->
   <h1>Headers</h1>
   <hr />
   <h1 class="h1">Header1</h1>
@@ -17,819 +19,437 @@
   <h6>Header6</h6>
 
   <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        h1,h2,h3,h4,h5,h6,
-        .h1.h2.h3.h4.h5.h6 {
-          font-family: 'Roboto', sans-serif;
-          font-weight: 500;
-        }
+  <div class="code-viewer">
+    <xmp>
+      h1,h2,h3,h4,h5,h6, .h1.h2.h3.h4.h5.h6 { font-family: 'Roboto', sans-serif; font-weight: 500; } h1, .h1 { font-size: 36px; } h2, .h2 { font-size: 30px; } h3, .h3 { font-size: 24px; } h4, .h4 { font-size: 18px; } h5, .h5 { font-size: 14px; } h6, .h6 { font-size:
+      12px; }
 
-        h1, .h1 {
-          font-size: 36px;
-        }
-
-        h2, .h2 {
-          font-size: 30px;
-        }
-
-        h3, .h3 {
-          font-size: 24px;
-        }
-
-        h4, .h4 {
-          font-size: 18px;
-        }
-
-        h5, .h5 {
-          font-size: 14px;
-        }
-
-        h6, .h6 {
-          font-size: 12px;
-        }
-
-        <h1 class="h1">Header1</h1>
-        <h2>Header2</h2>
-        <h3>Header3</h3>
-        <h4>Header4</h4>
-        <h5>Header5</h5>
-        <h6>Header6</h6>
+      <h1 class="h1">Header1</h1>
+      <h2>Header2</h2>
+      <h3>Header3</h3>
+      <h4>Header4</h4>
+      <h5>Header5</h5>
+      <h6>Header6</h6>
     </xmp>
-    </div>
+  </div>
 
-<!-- Buttons -->
+  <!-- Buttons -->
   <h1>Buttons</h1>
   <hr />
-    <!-- Basic button -->
-    <p>Basic button</p>
-    <button class="btn">Basic</button>
-    <!-- Default button -->
-    <p>Default button</p>
-    <button class="btn-default">Default</button>
-   <!-- Hover button-->
-    <p>Hover button</p>
-    <button class="btn-primary">Hover</button>
-   <!-- Primary button-->
-    <p>Primary button</p>
-    <button class="btn-primary">Primary</button>
-   <!-- Primary hover button-->
-    <p>Primary hover button</p>
-    <button class="btn-primary">Primary Hover</button>
-    <!-- Success button-->
-    <p>Success button</p>
-    <button class="btn-success">Sucess</button>
-    <!-- Info button-->
-    <p>Info button</p>
-    <button class="btn-info">Info</button>
-    <!-- Warning Button-->
-    <p>Warning Button</p>
-    <button class="btn-warning">Warning</button>
-    <!-- Button Warning:Hover -->
-    <p>Button Warning:Hover</p>
-    <button class="btn-warning">warning:hover</button>
-    <!-- Button warning:active -->
-    <p>Button warning:active</p>
-    <button class="btn-warning"> Warning: Active!</button>
-    <!-- Button Danger -->
-    <p>Button Danger</p>
-    <button class="btn-danger">Danger</button>
-    <!-- Button Danger Active -->
-    <p>Button Danger Active</p>
-    <button class="btn-danger">Danger Active</button>
-    <!-- Button Danger Hover -->
-    <p>Button Danger Hover</p>
-    <button class="btn-danger">Danger Hover</button>
-    <!-- Button link -->
-    <p> Button link</p>
-    <button class="btn-link"> button link</button>
-    <!-- Button Link Hover -->
-    <p> Button Link Hover</p>
-    <button class="btn-link"> button link Hover</button>
-    <!-- Disabled Button -->
-    <p>Disabled</p>
-    <button type="button" class="disabled"> disabled</button><br />
-    <!-- code used displayed on front-end -->
-      <div class="code-viewer">
-        <xmp>
-          .btn {
-            border: 1px solid rgb(239, 242, 242);
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 14px;
-            margin: 0px;
-            padding: 5px;
-            text-decoration: none;
-          }
+  <!-- Basic button -->
+  <p>Basic button</p>
+  <button class="btn">Basic</button>
+  <!-- Default button -->
+  <p>Default button</p>
+  <button class="btn-default">Default</button>
+  <!-- Hover button-->
+  <p>Hover button</p>
+  <button class="btn-primary">Hover</button>
+  <!-- Primary button-->
+  <p>Primary button</p>
+  <button class="btn-primary">Primary</button>
+  <!-- Primary hover button-->
+  <p>Primary hover button</p>
+  <button class="btn-primary">Primary Hover</button>
+  <!-- Success button-->
+  <p>Success button</p>
+  <button class="btn-success">Sucess</button>
+  <!-- Info button-->
+  <p>Info button</p>
+  <button class="btn-info">Info</button>
+  <!-- Warning Button-->
+  <p>Warning Button</p>
+  <button class="btn-warning">Warning</button>
+  <!-- Button Warning:Hover -->
+  <p>Button Warning:Hover</p>
+  <button class="btn-warning">warning:hover</button>
+  <!-- Button warning:active -->
+  <p>Button warning:active</p>
+  <button class="btn-warning"> Warning: Active!</button>
+  <!-- Button Danger -->
+  <p>Button Danger</p>
+  <button class="btn-danger">Danger</button>
+  <!-- Button Danger Active -->
+  <p>Button Danger Active</p>
+  <button class="btn-danger">Danger Active</button>
+  <!-- Button Danger Hover -->
+  <p>Button Danger Hover</p>
+  <button class="btn-danger">Danger Hover</button>
+  <!-- Button link -->
+  <p> Button link</p>
+  <button class="btn-link"> button link</button>
+  <!-- Button Link Hover -->
+  <p> Button Link Hover</p>
+  <button class="btn-link"> button link Hover</button>
+  <!-- Disabled Button -->
+  <p>Disabled</p>
+  <button type="button" class="disabled"> disabled</button><br />
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .btn { border: 1px solid rgb(239, 242, 242); border-radius: 3px; cursor: pointer; font-size: 14px; margin: 0px; padding: 5px; text-decoration: none; } .btn-default { background-color: rgb(45, 36, 89); color: rgb(233, 231, 26); } .btn-default:hover { background-color:
+      grey; } .btn:hover { background-color: grey; } .btn-primary { background-color: rgb(132, 190, 240); border-color: rgb(211, 213, 204); color: #fff; } .btn-primary:hover { background-color: rgb(34, 96, 148); border-color: rgb(110, 190, 30); } .btn-success{
+      background-color:#2D93C4; border-color: rgb(66, 134, 244); } .btn-success:hover { background: #2D93C4; } .btn-info { background-color: rgb(65, 184, 244); border-color: rgb(66, 235, 244); color: black; } .btn-info:hover { opacity: .90; background-color:
+      rgb(65, 184, 255) } .btn-warning { background-color: rgb(244, 65, 91); border-color: rgb(244, 65, 91); color: rgb(245, 242, 243); } .btn-warning:hover { background-color: rgb(244, 76, 65); border-color: rgb(244, 76, 65); opacity: .90; } .btn-warning:active
+      { background-color: rgb(244, 65, 9);; border-color: rgb(244, 65, 9); font-size: 16px; } .btn-warning:hover { opacity: .90; } .btn-danger { background-color: #C5C7C9; border-color: #C5C7C9 color: rgb(252, 246, 244); } .btn-danger:hover { background-color:
+      rgb(244, 223, 65); border-color: rgb(244, 223, 65); } .btn-danger:active { background-color: rgb(230, 238, 6); border-color: rgb(183, 238, 6); } .btn-link { background-color: none; border: rgb(10, 10, 10); color: rgb(10, 10, 10); } .btn-link:hover
+      { background-color:rgb(7, 52, 170); border-color: inherit; } :disabled { cursor: not-allowed; opacity: 0.9; } Basic button
+      <button class="btn">Basic</button> Default button
+      <button class="btn-default">Default</button> Hover button
+      <button class="btn-primary">Hover</button> Primary button
+      <button class="btn-primary">Primary</button> Primary hover button
+      <button class="btn-primary">Primary Hover</button> Success button
+      <button class="btn-success">Sucess</button> Info button
+      <button class="btn-info">Info</button> Warning Button
+      <button class="btn-warning">Warning</button> Warning:Hover Button
+      <button type="button" class="btn-warning">warning:hover</button> Button warning:active
+      <button class="btn-warning"> Warning: Active!</button> Button Danger
+      <button class="btn-danger">Danger</button> Button Danger Active
+      <button class="btn-danger">Danger Active</button> Button Danger Hover
+      <button class="btn-danger">Danger Hover</button> Button link
+      <button class="btn-link"> button link</button> Button Link Hover
+      <button class="btn-link"> button link Hover</button> Disabled
+      <button type="button" class="disabled"> disabled</button>
 
-          .btn-default {
-            background-color: rgb(45, 36, 89);
-            color: rgb(233, 231, 26);
-          }
+    </xmp>
+  </div>
 
-          .btn-default:hover {
-            background-color: grey;
-          }
 
-          .btn:hover {
-            background-color: grey;
-          }
+  <!-- Button Sizes-->
 
-          .btn-primary {
-            background-color: rgb(132, 190, 240);
-            border-color: rgb(211, 213, 204);
-            color: #fff;
-          }
+  <p>Button Sizes</p>
+  <button class="btn-lg">Long</button>
+  <button class="btn-sm">Small</button>
+  <button class="btn-xs">XSmall</button>
 
-          .btn-primary:hover {
-            background-color: rgb(34, 96, 148);
-            border-color: rgb(110, 190, 30);
-          }
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .btn-lg { border-radius: 5px; font-size: 15px; line-height: 1.25; padding: 12px 18px; } .btn-sm { border-radius: 2px; font-size: 15px; line-height: 1.2; padding: 3px 8px; } .btn-xs { border-radius: 3px; font-size: 12px; line-height: 1.5; padding: 1px
+      5px; }
 
-          .btn-success{
-            background-color:#2D93C4;
-            border-color: rgb(66, 134, 244);
-          }
+      <button class="btn-lg">Long</button>
+      <button class="btn-sm">Small</button>
+      <button class="btn-xs">Extra Small</button>
+    </xmp>
+  </div>
 
-          .btn-success:hover {
-            background:  #2D93C4;
-          }
 
-          .btn-info {
-            background-color: rgb(65, 184, 244);
-            border-color: rgb(66, 235, 244);
-            color: black;
-          }
+  <!-- Button Group -->
 
-          .btn-info:hover {
-            opacity: .90;
-            background-color: rgb(65, 184, 255)
-          }
+  <h1>Button Group</h1>
+  <hr />
 
-          .btn-warning {
-            background-color: rgb(244, 65, 91);
-            border-color: rgb(244, 65, 91);
-            color: rgb(245, 242, 243);
-          }
+  <p>Button Group</p>
 
-          .btn-warning:hover {
-            background-color: rgb(244, 76, 65);
-            border-color: rgb(244, 76, 65);
-            opacity: .90;
-          }
+  <div class="btn-group" role="group" aria-label="...">
+    <button class="btn-default">Left</button>
+    <button class="btn-default">Middle</button>
+    <button class="btn-default">Right</button>
+  </div>
 
-          .btn-warning:active {
-            background-color: rgb(244, 65, 9);;
-            border-color: rgb(244, 65, 9);
-            font-size: 16px;
-          }
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .btn-group { padding: 5px; margin: 10px; }
 
-          .btn-warning:hover {
-            opacity: .90;
-          }
-
-          .btn-danger {
-            background-color: #C5C7C9;
-            border-color: #C5C7C9
-            color: rgb(252, 246, 244);
-          }
-
-          .btn-danger:hover {
-            background-color: rgb(244, 223, 65);
-            border-color: rgb(244, 223, 65);
-          }
-
-          .btn-danger:active {
-            background-color: rgb(230, 238, 6);
-            border-color: rgb(183, 238, 6);
-          }
-
-          .btn-link {
-            background-color: none;
-            border: rgb(10, 10, 10);
-            color: rgb(10, 10, 10);
-          }
-
-          .btn-link:hover {
-            background-color:rgb(7, 52, 170);
-            border-color: inherit;
-          }
-
-          :disabled {
-            cursor: not-allowed;
-            opacity: 0.9;
-          }
-
-          Basic button
-          <button class="btn">Basic</button>
-
-          Default button
-          <button class="btn-default">Default</button>
-
-          Hover button
-          <button class="btn-primary">Hover</button>
-
-          Primary button
-          <button class="btn-primary">Primary</button>
-
-          Primary hover button
-          <button class="btn-primary">Primary Hover</button>
-
-          Success button
-          <button class="btn-success">Sucess</button>
-
-          Info button
-          <button class="btn-info">Info</button>
-
-          Warning Button
-          <button class="btn-warning">Warning</button>
-
-          Warning:Hover Button
-          <button type="button" class="btn-warning">warning:hover</button>
-
-          Button warning:active
-          <button class="btn-warning"> Warning: Active!</button>
-
-          Button Danger
-          <button class="btn-danger">Danger</button>
-
-          Button Danger Active
-          <button class="btn-danger">Danger Active</button>
-
-          Button Danger Hover
-          <button class="btn-danger">Danger Hover</button>
-
-          Button link
-          <button class="btn-link"> button link</button>
-
-          Button Link Hover
-          <button class="btn-link"> button link Hover</button>
-
-          Disabled
-          <button type="button" class="disabled"> disabled</button>
-
-      </xmp>
+      <div class="btn-group" role="group" aria-label="...">
+        <button class="btn-default">Left</button>
+        <button class="btn-default">Middle</button>
+        <button class="btn-default">Right</button>
       </div>
-
-
-<!-- Button Sizes-->
-
-    <p>Button Sizes</p>
-    <button class="btn-lg">Long</button>
-    <button class="btn-sm">Small</button>
-    <button class="btn-xs">XSmall</button>
-
-    <!-- code used displayed on front-end -->
-      <div class="code-viewer">
-        <xmp>
-          .btn-lg {
-            border-radius: 5px;
-            font-size: 15px;
-            line-height: 1.25;
-            padding: 12px 18px;
-          }
-
-          .btn-sm {
-            border-radius: 2px;
-            font-size: 15px;
-            line-height: 1.2;
-            padding: 3px 8px;
-          }
-
-          .btn-xs {
-            border-radius: 3px;
-            font-size: 12px;
-            line-height: 1.5;
-            padding: 1px 5px;
-          }
-
-        <button class="btn-lg">Long</button>
-        <button class="btn-sm">Small</button>
-        <button class="btn-xs">Extra Small</button>
-      </xmp>
-      </div>
-
-
-<!-- Button Group -->
-
-    <h1>Button Group</h1>
-    <hr />
-
-    <p>Button Group</p>
-
-    <div class="btn-group" role="group" aria-label="...">
-      <button class="btn-default">Left</button>
-      <button class="btn-default">Middle</button>
-      <button class="btn-default">Right</button>
-    </div>
-
-    <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .btn-group {
-          padding: 5px;
-          margin: 10px;
-        }
-
-        <div class="btn-group" role="group" aria-label="...">
-          <button class="btn-default">Left</button>
-          <button class="btn-default">Middle</button>
-          <button class="btn-default">Right</button>
-        </div>
-     </xmp>
-    </div>
+    </xmp>
+  </div>
 
 
 
-<!-- Breadcrumbs -->
+  <!-- Breadcrumbs -->
 
-    <h1>Breadcrumbs</h1>
-    <hr />
+  <h1>Breadcrumbs</h1>
+  <hr />
 
 
-    <ol class="breadcrumb">
-      <li>
-        howdy /
-      </li>
-      <li>
+  <ol class="breadcrumb">
+    <li>
+      howdy /
+    </li>
+    <li>
       hello /
-      </li>
-    </ol>
+    </li>
+  </ol>
 
-    <ol class="breadcrumb" "li + li">
-      <li>
-        howdy /
-      </li>
-      <li>
-        hello /
-      </li>
-    </ol>
-    <!-- code used displayed on front-end -->
-      <div class="code-viewer">
-        <xmp>
-          .breadcrumb {
-            background-color: inherit;
-            border-radius: 4px;
-            list-style: none;
-            padding: 8px 15px;
-          }
+  <ol class="breadcrumb" "li + li">
+    <li>
+      howdy /
+    </li>
+    <li>
+      hello /
+    </li>
+  </ol>
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .breadcrumb { background-color: inherit; border-radius: 4px; list-style: none; padding: 8px 15px; } .breadcrumb li { display: inline; } .breadcrumb > li + li:before { color: inherit; content: ; padding: 0 5px; }
 
-          .breadcrumb li {
-            display: inline;
-          }
+      <ol class="breadcrumb">
+        <li> howdy / </li>
+        <li> hello / </li>
+      </ol>
 
-          .breadcrumb > li + li:before {
-            color: inherit;
-            content: ;
-            padding: 0 5px;
-          }
+      <ol class="breadcrumb" "li + li">
+        <li> howdy / </li>
+        <li> hello /</li>
+      </ol>
+    </xmp>
+  </div>
+  <!-- Pagination -->
 
-          <ol class="breadcrumb">
-            <li>  howdy / </li>
-            <li>  hello / </li>
-          </ol>
+  <h1>Pagination</h1>
+  <hr />
+  <ol class="Pagination">
+    <li>
+      howdy
+    </li>
+    <li>
+      hello
+    </li>
+  </ol>
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .pagination a { color: inherit; float: left; padding: 6px 12px; text-decoration: none; } .pagination a:hover { background-color: #ccc; color: inherit; } .pagination li:first-child { border-bottom-left-radius: 4px; border-top-left-radius: 4px; } .pagination
+      li:last-child { border-bottom-right-radius: 4px; border-right: 1px solid #ccc; border-top-right-radius: 4px; } .pagination::after { clear: both; content: ''; display: table; }
 
-          <ol class="breadcrumb" "li + li">
-            <li> howdy / </li>
-            <li> hello /</li>
-          </ol>
-      </xmp>
-      </div>
-<!-- Pagination -->
+      <ol class="Pagination">
+        <li> howdy </li>
+        <li> hello </li>
+      </ol>
+    </xmp>
+  </div>
 
-    <h1>Pagination</h1>
-    <hr />
-    <ol class="Pagination">
-      <li>
-        howdy
-      </li>
-      <li>
-        hello
-      </li>
-    </ol>
-    <!-- code used displayed on front-end -->
-      <div class="code-viewer">
-        <xmp>
-          .pagination a {
-            color: inherit;
-            float: left;
-            padding: 6px 12px;
-            text-decoration: none;
-          }
+  <!-- Labels -->
 
-          .pagination a:hover {
-            background-color: #ccc;
-            color: inherit;
-          }
-
-          .pagination li:first-child {
-            border-bottom-left-radius: 4px;
-            border-top-left-radius: 4px;
-          }
-
-          .pagination li:last-child {
-            border-bottom-right-radius: 4px;
-            border-right: 1px solid #ccc;
-            border-top-right-radius: 4px;
-
-          }
-
-          .pagination::after {
-            clear: both;
-            content: '';
-            display: table;
-          }
-
-          <ol class="Pagination">
-            <li>  howdy </li>
-            <li> hello </li>
-          </ol>
-      </xmp>
-      </div>
-
-    <!-- Labels -->
-
-    <h1>Labels</h1>
-    <hr/>
+  <h1>Labels</h1>
+  <hr/>
 
 
-    <h4>This is a Label on default <span class="label-default">Label</span></h4>
-    <h4>This is a Label in primary <span class="label-primary">Label</span></h4>
-    <h4>This is a Label success <span class="label-success">Label</span></h4>
-    <h4>This is a Label Info <span class="label-info">Label</span></h4>
-    <h4>This is a Label Warning <span class="label-warning">Label</span></h4>
-    <h4>This is a Label Danger <span class="label-danger">Label</span></h4>
+  <h4>This is a Label on default <span class="label-default">Label</span></h4>
+  <h4>This is a Label in primary <span class="label-primary">Label</span></h4>
+  <h4>This is a Label success <span class="label-success">Label</span></h4>
+  <h4>This is a Label Info <span class="label-info">Label</span></h4>
+  <h4>This is a Label Warning <span class="label-warning">Label</span></h4>
+  <h4>This is a Label Danger <span class="label-danger">Label</span></h4>
 
-    <!-- code used displayed on front-end -->
-      <div class="code-viewer">
-        <xmp>
-          .label {
-            border-radius: .25em;
-            color: inherit;
-            display: inline;
-            font-size: 75%;
-            font-weight: 700;
-            line-height: 1;
-            padding: .2em .6em .3em;
-            text-align: center;
-            vertical-align: baseline;
-            white-space: nowrap;
-          }
-
-          .label-default {
-            background-color: #C5C7C9;
-          }
-
-          .label-primary {
-            background-color: #1cb1f1 ;
-          }
-
-          .label-success {
-            background-color: #2D93C4 ;
-          }
-
-          .label-info {
-            background-color:rgb(25, 114, 221);
-          }
-
-          .label-warning {
-            background-color: #E52743;
-          }
-
-          .label-danger {
-            background-color: #C5C7C9;
-          }
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .label { border-radius: .25em; color: inherit; display: inline; font-size: 75%; font-weight: 700; line-height: 1; padding: .2em .6em .3em; text-align: center; vertical-align: baseline; white-space: nowrap; } .label-default { background-color: #C5C7C9;
+      } .label-primary { background-color: #1cb1f1 ; } .label-success { background-color: #2D93C4 ; } .label-info { background-color:rgb(25, 114, 221); } .label-warning { background-color: #E52743; } .label-danger { background-color: #C5C7C9; }
 
 
 
-          <h4>This is a Label<span class="label">Label </span></h4>
-          <h4>This is a Label on Drugs <span class="label-default">Label</span></h4>
-          <h4>This is a Label in recover <span class="label-primary">Label</span></h4>
-          <h4>This is a Label Sober <span class="label-success">Label</span></h4>
-      </xmp>
-      </div>
+      <h4>This is a Label<span class="label">Label </span></h4>
+      <h4>This is a Label on Drugs <span class="label-default">Label</span></h4>
+      <h4>This is a Label in recover <span class="label-primary">Label</span></h4>
+      <h4>This is a Label Sober <span class="label-success">Label</span></h4>
+    </xmp>
+  </div>
 
 
   <!-- Badges -->
 
-    <h1>Badges</h1>
-    <hr/>
-    <button type="button" class="btn">Badges<span class="badge"> 1 </span></button>
-    <button type="button" class="btn-success">sucess<span class="badge"> 2 </span></button>
-    <button type="button" class="btn-warning">Warning<span class="badge"> 3 </span></button>
-    <button type="button" class="btn-danger">Danger<span class="badge"> 4 </span></button>
-    <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .badge {
-          background-color: grey;
-          border-radius: 10px;
-          color: #fff;
-          display: inline-block;
-          font-size: 12px;
-          font-weight: 700;
-          line-height: 1;
-          margin-left: 3px;
-          padding: 4px 9px;
-          text-align: center;
-          vertical-align: middle;
-          white-space: nowrap;
-        }
+  <h1>Badges</h1>
+  <hr/>
+  <button type="button" class="btn">Badges<span class="badge"> 1 </span></button>
+  <button type="button" class="btn-success">sucess<span class="badge"> 2 </span></button>
+  <button type="button" class="btn-warning">Warning<span class="badge"> 3 </span></button>
+  <button type="button" class="btn-danger">Danger<span class="badge"> 4 </span></button>
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .badge { background-color: grey; border-radius: 10px; color: #fff; display: inline-block; font-size: 12px; font-weight: 700; line-height: 1; margin-left: 3px; padding: 4px 9px; text-align: center; vertical-align: middle; white-space: nowrap; } .btn .badge
+      { position: relative; top: -1px; } .btn-primary .badge { background-color: #fff; color: violet; } .btn-success .badge { background-color: #fff; color: blue; } .btn-info .badge { background-color: #fff; color: yellow; } .btn-warning .badge { background-color:
+      #fff; color: green; } .btn-danger .badge { background-color: #fff; color: red; }
 
-        .btn .badge {
-          position: relative;
-          top: -1px;
-        }
+      <button type="button" class="btn">Badges<span class="badge"> 1 </span></button>
+      <button type="button" class="btn-success">Badges<span class="badge"> 2 </span></button>
+      <button type="button" class="btn-warning">Badges<span class="badge"> 3 </span></button>
+      <button type="button" class="btn-danger">Badges<span class="badge"> 4 </span></button>
+    </xmp>
+  </div>
 
-        .btn-primary .badge {
-          background-color: #fff;
-          color: violet;
-        }
+  <!-- jumbotron -->
+  <h1>jumbotron</h1>
+  <hr/>
+  <div class="jumbotron">
+    <header>This Is jumbotron</header>
+  </div>
+  <div class="jumbotron">
+    <h1>This Is jumbotron with h1</h1>
+  </div>
 
-        .btn-success .badge {
-          background-color: #fff;
-          color: blue;
-        }
+  <div class="jumbotron">
+    <h1>This Is jumbotron h1</h1>
+    <p>
+      with the Paragraph(p)
+    </p>
+  </div>
 
-        .btn-info .badge {
-          background-color: #fff;
-          color: yellow;
-        }
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .jumbotron { background-color: rgb(240, 240, 240); border-radius: 12px; margin: 25px; padding: 55px; } .jumbotron h1, .jumbotron .h1 { font-size: 60px; } .jumbotron p { font-size: 20px; font-weight: 350; }
 
-        .btn-warning .badge {
-          background-color: #fff;
-          color: green;
-        }
-
-        .btn-danger .badge {
-          background-color: #fff;
-          color: red;
-        }
-
-        <button type="button" class="btn">Badges<span class="badge"> 1 </span></button>
-        <button type="button" class="btn-success">Badges<span class="badge"> 2 </span></button>
-        <button type="button" class="btn-warning">Badges<span class="badge"> 3 </span></button>
-        <button type="button" class="btn-danger">Badges<span class="badge"> 4 </span></button>
-     </xmp>
-    </div>
-
-<!-- jumbotron -->
-    <h1>jumbotron</h1>
-    <hr/>
-    <div class="jumbotron">
-     <header>This Is jumbotron</header>
-    </div>
-    <div class="jumbotron">
-     <h1>This Is jumbotron with h1</h1>
-    </div>
-
-    <div class="jumbotron">
-     <h1>This Is jumbotron h1</h1>
-     <p>
-       with the Paragraph(p)
-     </p>
-    </div>
-
-    <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .jumbotron {
-          background-color: rgb(240, 240, 240);
-          border-radius: 12px;
-          margin: 25px;
-          padding: 55px;
-        }
-
-        .jumbotron h1, .jumbotron .h1 {
-          font-size: 60px;
-        }
-
-        .jumbotron p {
-          font-size: 20px;
-          font-weight: 350;
-        }
-
-        <div class="jumbotron">
-          <header>This Is jumbotron</header>
-        </div>
-
-        <div class="jumbotron">
-          <h1>This Is jumbotron with h1</h1>
-        </div>
-
-        <div class="jumbotron">
-         <h1>This Is jumbotron h1</h1>
-         <p>with the Paragraph(p)</p>
-        </div>
-     </xmp>
-    </div>
-
-    <!-- Page Header -->
-
-    <h1>Page Header</h1>
-    <hr />
-
-    <div class="page-header">
-      <h1>h1 header <small> small subtext</small></h1>
-    </div>
-    <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .page-header {
-          border-bottom: 1px solid rgb(233, 233, 233);
-          margin-top: 50px;
-          margin-bottom: 10px;
-          padding-bottom: 5px;
-        }
-
-        <div class="page-header">
-          <h1>h1 header <small> small subtext</small></h1>
-        </div>
-     </xmp>
-    </div>
-
-    <!-- Thumbnails -->
-
-    <h1>Thumbnails</h1>
-    <hr  />
-
-    <div class="row">
-      <div class=""><img src="saltybae.png"/></div>
-      <div class=""><img src="saltybae.png"/></div>
-      <div class=""><img src="saltybae.png" /></div>
-
+      <div class="jumbotron">
+        <header>This Is jumbotron</header>
       </div>
 
-      <div class="code-viewer">
-        <xmp>
-          .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-          }
-
-          .thumbnail {
-            border-radius: 5px;
-            border: 1px solid rgb(233, 233, 233);
-            float: left;
-            margin: 13px;
-            padding-bottom: 3px;
-            padding: 5px;
-          }
-
-          <div class="row">
-            <div class=""><img src="saltybae.png"/></div>
-            <div class=""><img src="saltybae.png"/></div>
-            <div class=""><img src="saltybae.png" /></div>
-          </div>
-       </xmp>
+      <div class="jumbotron">
+        <h1>This Is jumbotron with h1</h1>
       </div>
-<!-- alerts -->
+
+      <div class="jumbotron">
+        <h1>This Is jumbotron h1</h1>
+        <p>with the Paragraph(p)</p>
+      </div>
+    </xmp>
+  </div>
+
+  <!-- Page Header -->
+
+  <h1>Page Header</h1>
+  <hr />
+
+  <div class="page-header">
+    <h1>h1 header <small> small subtext</small></h1>
+  </div>
+  <!-- code used displayed on front-end -->
+  <div class="code-viewer">
+    <xmp>
+      .page-header { border-bottom: 1px solid rgb(233, 233, 233); margin-top: 50px; margin-bottom: 10px; padding-bottom: 5px; }
+
+      <div class="page-header">
+        <h1>h1 header <small> small subtext</small></h1>
+      </div>
+    </xmp>
+  </div>
+
+  <!-- Thumbnails -->
+
+  <h1>Thumbnails</h1>
+  <hr />
+
+  <div class="row">
+    <div class=""><img src="saltybae.png" /></div>
+    <div class=""><img src="saltybae.png" /></div>
+    <div class=""><img src="saltybae.png" /></div>
+
+  </div>
+
+  <div class="code-viewer">
+    <xmp>
+      .row { display: flex; flex-direction: row; flex-wrap: wrap; } .thumbnail { border-radius: 5px; border: 1px solid rgb(233, 233, 233); float: left; margin: 13px; padding-bottom: 3px; padding: 5px; }
+
+      <div class="row">
+        <div class=""><img src="saltybae.png" /></div>
+        <div class=""><img src="saltybae.png" /></div>
+        <div class=""><img src="saltybae.png" /></div>
+      </div>
+    </xmp>
+  </div>
+  <!-- alerts -->
 
 
-    <h1>Alerts</h1>
-    <hr />
-    <div class="alert">
-      <strong>Alert</strong> you may have to Run for your life
-    </div>
-    <div class="alert-success">
-      <strong>Success</strong> your legs work for running for your life
-    </div>
-    <div class="alert-info">
-      <strong>Info</strong> about Runing for your life
-    </div>
-    <div class="alert-warning">
-      <strong>Warning</strong> you should run for your life
-    </div>
-    <div class="alert-danger">
-      <strong>Danger</strong> Run for your life zombies!
-    </div>
+  <h1>Alerts</h1>
+  <hr />
+  <div class="alert">
+    <strong>Alert</strong> you may have to Run for your life
+  </div>
+  <div class="alert-success">
+    <strong>Success</strong> your legs work for running for your life
+  </div>
+  <div class="alert-info">
+    <strong>Info</strong> about Runing for your life
+  </div>
+  <div class="alert-warning">
+    <strong>Warning</strong> you should run for your life
+  </div>
+  <div class="alert-danger">
+    <strong>Danger</strong> Run for your life zombies!
+  </div>
 
-    <div class="code-viewer">
-      <xmp>
-        .alert {
-          border-radius: 4px;
-          border: 1px solid transparent;
-          margin-bottom: 15px;
-          padding: 15px 25px;
-        }
+  <div class="code-viewer">
+    <xmp>
+      .alert { border-radius: 4px; border: 1px solid transparent; margin-bottom: 15px; padding: 15px 25px; } .alert-success { background-color: #2D93C4; border-color: #C5C7C9; color: #ffffff; } .alert-info { background-color: inherit; border-color: inherit;
+      color: inherit; } .alert-warning { background-color: #E52743; border-color: #ebccd1; color: #ffffff; } .alert-danger { background-color: #C5C7C9; border-color: #1a0101; color: rgb(6, 1, 9); } Basic alert
+      <div class="alert">
+        <strong>Alert</strong> you may have to Run for your life
+      </div>
 
-        .alert-success {
-          background-color: #2D93C4;
-          border-color: #C5C7C9;
-          color: #ffffff;
-        }
+      Alert Success
+      <div class="alert-success">
+        <strong>Success</strong> your legs work for running for your life
+      </div>
 
-        .alert-info {
-          background-color: inherit;
-          border-color: inherit;
-          color: inherit;
-        }
+      Alert Info
+      <div class="alert-info">
+        <strong>Info</strong> about Runing for your life
+      </div>
 
-        .alert-warning {
-          background-color:  #E52743;
-          border-color: #ebccd1;
-          color: #ffffff;
-        }
+      Alert Warning
+      <div class="alert-warning">
+        <strong>Warning</strong> you should run for your life
+      </div>
 
-        .alert-danger {
-          background-color: #C5C7C9;
-          border-color: #1a0101;
-          color: rgb(6, 1, 9);
-        }
+      Alert Danger
+      <div class="alert-danger">
+        <strong>Danger</strong> Run for your life zombies!
+      </div>
+    </xmp>
+  </div>
+  <!-- alerts with link tag -->
 
+  <div class="alert">
+    <strong>Alert message with a </strong> <a href="#" class="alert-link">Link</a>
+  </div>
+  <div class="alert-success">
+    <strong>Alert success and </strong> <a href="#" class="alert-link"> Link</a>
+  </div>
+  <div class="alert-info">
+    <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
+  </div>
+  <div class="alert-warning">
+    <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
+  </div>
+  <div class="alert-danger ">
+    <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
+  </div>
+  <div class="code-viewer">
+    <xmp>
+      .alert .alert-link { font-weight: 700; } .alert-success .alert-link { color: #e5f2e5; } .alert-info .alert-link { color: #37108f; } .alert-warning .alert-link { color: #37108f; } .alert-danger .alert-link { color: red Basic alert with link
+      <div class="alert">
+        <strong>Alert message with a </strong> <a href="#" class="alert-link">Link</a>
+      </div>
 
+      Alert Success with link
+      <div class="alert-success">
+        <strong>Alert success and </strong> <a href="#" class="alert-link"> Link</a>
+      </div>> Alert info with link
+      <div class="alert-info">
+        <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
+      </div>
 
-        Basic alert
-        <div class="alert">
-          <strong>Alert</strong> you may have to Run for your life
-        </div>
+      Alert Warning with link
+      <div class="alert-warning">
+        <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
+      </div>
 
-        Alert Success
-        <div class="alert-success">
-          <strong>Success</strong> your legs work for running for your life
-        </div>
-
-        Alert Info
-        <div class="alert-info">
-          <strong>Info</strong> about Runing for your life
-        </div>
-
-        Alert Warning
-        <div class="alert-warning">
-          <strong>Warning</strong> you should run for your life
-        </div>
-
-        Alert Danger
-        <div class="alert-danger">
-          <strong>Danger</strong> Run for your life zombies!
-        </div>
-     </xmp>
-    </div>
-    <!-- alerts with link tag -->
-
-    <div class="alert">
-      <strong>Alert message with a </strong> <a href="#" class="alert-link">Link</a>
-    </div>
-    <div class="alert-success">
-      <strong>Alert success and </strong> <a href="#" class="alert-link"> Link</a>
-    </div>
-    <div class="alert-info">
-      <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
-    </div>
-    <div class="alert-warning">
-      <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
-    </div>
-    <div class="alert-danger ">
-      <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
-    </div>
-    <div class="code-viewer">
-      <xmp>
-        .alert .alert-link {
-          font-weight: 700;
-        }
-
-        .alert-success .alert-link {
-          color: #e5f2e5;
-        }
-
-        .alert-info .alert-link {
-          color: #37108f;
-        }
-
-        .alert-warning .alert-link {
-          color: #37108f;
-        }
-
-        .alert-danger .alert-link {
-          color: red
-
-        Basic alert with link
-        <div class="alert">
-          <strong>Alert message with a </strong> <a href="#" class="alert-link">Link</a>
-        </div>
-
-        Alert Success with link
-        <div class="alert-success">
-          <strong>Alert success and </strong> <a href="#" class="alert-link"> Link</a>
-        </div>>
-
-        Alert info with link
-        <div class="alert-info">
-          <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
-        </div>
-
-        Alert Warning with link
-        <div class="alert-warning">
-          <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
-        </div>
-
-        Alert Danger with link
-        <div class="alert-danger ">
-          <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
-        </div>
-     </xmp>
-    </div>
+      Alert Danger with link
+      <div class="alert-danger ">
+        <strong>Alert info and </strong> <a href="#" class="alert-link">Link</a>
+      </div>
+    </xmp>
+  </div>
   <!-- List groups -->
   <h1>List groups</h1>
   <hr />
@@ -841,33 +461,19 @@
   </ul>
 
   <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .list-group-item {
-          border: 1px solid #e3e3e3;
-          list-style: none;
-          margin-bottom: -1px;
-          padding: 10px 15px;
-        }
+  <div class="code-viewer">
+    <xmp>
+      .list-group-item { border: 1px solid #e3e3e3; list-style: none; margin-bottom: -1px; padding: 10px 15px; } .list-group-item:first-child { border-top-left-radius: 4px; border-top-right-radius: 4px; } .list-group-item:last-child { border-bottom-left-radius:
+      4px; border-bottom-right-radius: 4px; }
 
-        .list-group-item:first-child {
-          border-top-left-radius: 4px;
-          border-top-right-radius: 4px;
-        }
-
-        .list-group-item:last-child {
-          border-bottom-left-radius: 4px;
-          border-bottom-right-radius: 4px;
-        }
-
-        <ul>
-          <li class="list-group-item">Headers</li>
-          <li class="list-group-item">Buttons</li>
-          <li class="list-group-item">Labels</li>
-          <li class="list-group-item">Badges</li>
-        </ul>
+      <ul>
+        <li class="list-group-item">Headers</li>
+        <li class="list-group-item">Buttons</li>
+        <li class="list-group-item">Labels</li>
+        <li class="list-group-item">Badges</li>
+      </ul>
     </xmp>
-    </div>
+  </div>
 
   <!-- panels -->
   <h1>Panels</h1>
@@ -877,19 +483,15 @@
   </div>
 
   <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .panel {
-          border-radius: 4px;
-          border: 1px solid #e3e3e3;
-          padding: 15px;
-        }
+  <div class="code-viewer">
+    <xmp>
+      .panel { border-radius: 4px; border: 1px solid #e3e3e3; padding: 15px; }
 
-        <div class="panel">
-          <div> Basic panel </div>
-        </div>
+      <div class="panel">
+        <div> Basic panel </div>
+      </div>
     </xmp>
-    </div>
+  </div>
 
 
   <!-- well -->
@@ -900,20 +502,16 @@
   </div>
 
   <!-- code used displayed on front-end -->
-    <div class="code-viewer">
-      <xmp>
-        .well {
-          background-color: #f5f5f5;
-          border-radius: 4px;
-          border: 1px solid #e3e3e3;
-          padding: 20px;
-        }
+  <div class="code-viewer">
+    <xmp>
+      .well { background-color: #f5f5f5; border-radius: 4px; border: 1px solid #e3e3e3; padding: 20px; }
 
-        <div class="panel">
-          <div> Basic panel </div>
-        </div>
+      <div class="panel">
+        <div> Basic panel </div>
+      </div>
     </xmp>
-    </div>
+  </div>
 
-  </body>
+</body>
+
 </html>
