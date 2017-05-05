@@ -38,47 +38,47 @@ Read and reference good resources on the web to build your conceptual understand
 
 ## Specifications
 
-- [ ] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
-- [ ] All CSS files are in a `css/` directory.
-- [ ] Main page is called `demo.html` and includes an example of each component.
-- [ ] No external CSS libraries/modules are used. Everything is written from scratch.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
+- [X] Artifact is a GitHub repository (if you're looking for a name, why not "shoelace" ;)
+- [X] All CSS files are in a `css/` directory.
+- [X] Main page is called `demo.html` and includes an example of each component.
+- [X] No external CSS libraries/modules are used. Everything is written from scratch.
+- [X] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+- [X] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Every pull request has been reviewed by at least one other person.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+- [X] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 ### Stage 1: Reverse Engineer Bootstrap Components
 
-- [ ] Styles include replicas of Bootstrap's typography:
-  - [ ] [Headings](http://getbootstrap.com/css/#type-headings)
-  - [ ] [Body copy](http://getbootstrap.com/css/#type-body-copy)
-  - [ ] [Addresses](http://getbootstrap.com/css/#type-addresses)
-  - [ ] [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
-- [ ] Styles include replicas of Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
-- [ ] Components include replicas of Bootstrap's:
-  - [ ] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
-  - [ ] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
-  - [ ] [Pagination](http://getbootstrap.com/components/#pagination)
-  - [ ] [Labels](http://getbootstrap.com/components/#labels)
-  - [ ] [Badges](http://getbootstrap.com/components/#badges)
-  - [ ] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
-  - [ ] [Page Header](http://getbootstrap.com/components/#page-header)
-  - [ ] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
-  - [ ] [Alerts](http://getbootstrap.com/components/#alerts)
-  - [ ] [List Group](http://getbootstrap.com/components/#list-group)
-  - [ ] [Panels](http://getbootstrap.com/components/#panels)
-  - [ ] [Wells](http://getbootstrap.com/components/#wells)
-- [ ] Each component is featured on the demo HTML page `demo.html` under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
+- [X] Styles include replicas of Bootstrap's typography:
+  - [X] [Headings](http://getbootstrap.com/css/#type-headings)
+  - [X] [Body copy](http://getbootstrap.com/css/#type-body-copy)
+  - [x] [Addresses](http://getbootstrap.com/css/#type-addresses)
+  - [x] [Blockquotes](http://getbootstrap.com/css/#type-blockquotes)
+- [x] Styles include replicas of Bootstrap's [buttons](http://getbootstrap.com/css/#buttons)
+- [x] Components include replicas of Bootstrap's:
+  - [x] [Button Groups: Toolbar](http://getbootstrap.com/components/#btn-groups-toolbar)
+  - [x] [Breadcrumbs](http://getbootstrap.com/components/#breadcrumbs)
+  - [x] [Pagination](http://getbootstrap.com/components/#pagination)
+  - [X] [Labels](http://getbootstrap.com/components/#labels)
+  - [X] [Badges](http://getbootstrap.com/components/#badges)
+  - [x] [Jumbotron](http://getbootstrap.com/components/#jumbotron)
+  - [X] [Page Header](http://getbootstrap.com/components/#page-header)
+  - [x] [Thumbnails](http://getbootstrap.com/components/#thumbnails)
+  - [x] [Alerts](http://getbootstrap.com/components/#alerts)
+  - [x] [List Group](http://getbootstrap.com/components/#list-group)
+  - [x] [Panels](http://getbootstrap.com/components/#panels)
+  - [x] [Wells](http://getbootstrap.com/components/#wells)
+- [X] Each component is featured on the demo HTML page `demo.html` under its own header along with the code used to generate it (for a simple example of what this could look like, see https://purecss.io/buttons/)
 
 ### Stage 2: Modify the Styles
 
 Now it's time to make it look good 😎. Make changes to the CSS (not the HTML) to apply your own styles to the design.
 
-- [ ] Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
-  - [ ] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
-  - [ ] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
-- [ ] Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
+- [X] Demo page `demo.html` shows components/elements with customized styles, including (but not limited to):
+  - [X] A different typeface (take a look at [Google Fonts][google-fonts] for inspiration)
+  - [X] A unique and different color palette (take a look at [Adobe Color CC][adobe-color] for inspiration)
+- [X] Style should be cohesive, connecting the elements as a whole. For example, a similar color palette is chosen.
 
 ### Stretch
 
